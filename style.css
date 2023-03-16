@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}  
+
+ #nav-bar{
+    position: sticky;
+    top: 0;
+    z-index:10;
+
+}
+.navbar-brand img{
+    height:40px;
+    padding-left: 30px;
+} 
+.navbar-nav li{
+     padding: 0px 10px;
+     /* //0 from top and  left right  */ 
+}
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+   color: black;
+   font-weight: 600;
+   font-size: 16px;
+}
+ #navbarNav ul  li a:hover{
+    color:aqua;
+} 
+.navbar{
+    background-color: white;
+}
+ .navbar-toggler{
+      border: none! important; /*this important will override the bootstrap styling */
+ }
+.navbar-nav{
+    margin-left: auto;
+}
+
